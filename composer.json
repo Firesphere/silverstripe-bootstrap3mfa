@@ -1,0 +1,30 @@
+{
+  "name": "firesphere/bootstrap3mfa",
+  "description": "Bootstrap module for Multi Factor Authentication on SilverStripe 3.6",
+  "type": "silverstripe-module",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "silverstripe",
+    "2-factor",
+    "authentication",
+    "module",
+    "security"
+  ],
+  "require": {
+    "silverstripe/framework": "^3.6.0"
+  },
+  "authors": [
+    {
+      "name": "Simon 'Firesphere' Erkelens",
+      "email": "github@casa-laguna.net"
+    }
+  ],
+  "extra": {
+    "installer-name": "bootstrapmfa",
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

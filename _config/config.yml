@@ -1,0 +1,10 @@
+Member:
+  extensions:
+    - MFAMemberExtension
+CodeGenerator:
+  settings:
+    length: 6
+    type: mixed
+    case: mixed
+MFABackupCode:
+  token_limit: 10
